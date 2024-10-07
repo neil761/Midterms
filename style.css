@@ -1,0 +1,378 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #42352e, 
+        #6f6758
+        
+    );
+    overflow-x: hidden;
+}
+
+/*nav*/
+.navbar{
+    background: linear-gradient(
+        to right,
+        #161616, 
+        #474747
+    );   
+}
+
+.nike{
+    width: 100px;
+    height: 20px;
+}
+
+/*hero*/
+#carouselExampleDark {
+    width: 100%; 
+    height: 100%; 
+    margin: auto; 
+    
+}
+.shoe{
+    background-color: black;
+}
+  
+.carousel-inner img {
+    width: 100%; 
+    height: 650px;
+    margin-top: 50px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*key*/
+.key{
+    margin-top: 200px;
+}
+.hover{
+    border: solid rgb(255, 255, 255) 0.1px;
+    background: #ffffff;
+    color: #5a493f;
+    margin-left: 70px;
+    box-shadow: 10px 5px 5px 10px rgb(32, 32, 32);
+    transition: transform 0.8s;
+}
+.hover:hover{
+    transform: scale(1.15);
+
+}
+.cards{
+    border: solid rgb(255, 255, 255);
+    background: #faf9f9;
+    color: #5a493f;
+    margin-left: 70px;
+    box-shadow: 10px 5px 5px 10px rgb(32, 32, 32);
+}
+
+
+/*prducts*/
+.prod{
+    margin-top: 150px;
+}
+div.scroll-container {
+    border: solid rgb(0, 0, 0) 0.1px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scroll-container img {
+    padding: 10px;
+}
+.gall{
+    width: 600px;
+    height: 400px;
+}
+.mocha{
+    height: 200px;
+}
+.air1{
+    height: 200px;
+}
+
+/*price*/
+@font-face {
+    font-family: Poppins-Italic;
+    src: url('Poppins-Italic.ttf');
+}
+
+.shoes1, #testimonials{
+    font-family: Poppins-Italic;
+}
+.shoe1{
+    color: black;
+}
+
+.price{
+     margin-top: 200px;
+}
+.dunk{
+    height: 180px;
+    border: white solid;
+    margin-bottom: 10px;
+}
+.shoe3{
+    margin-left: 10px;
+}
+.scott{
+    height: 180px;
+    border: white solid;
+    margin-bottom: 10px;
+}
+.dark{
+    height: 180px;
+    border: white solid;
+    margin-bottom: 10px;
+}
+.shoe6{
+    margin-left: 10px;
+}
+.shoe8{
+    margin-left: 10px;
+}
+.shoe9{
+    margin-left: 10px;
+}
+.cardsd{
+    height: 190px;
+}
+.cards1{
+    width: 286px;
+    border: white solid;
+    margin-bottom: 10px;
+}
+.cards2{
+    margin-left: 70px;
+    border: solid rgb(255, 255, 255);
+    background: #ffffff;
+    color: #5a493f;
+    box-shadow: 10px 5px 5px 10px rgb(32, 32, 32);
+}
+.olives{
+    margin-left: 70px;
+    border: solid rgb(255, 255, 255);
+    background: #ffffff;
+    color: #5a493f;
+    box-shadow: 10px 5px 5px 10px rgb(32, 32, 32);
+}
+.olive{
+    height: 200px;
+    border: white solid;
+    margin-bottom: 10px;
+}
+.col{
+    margin-top: 100px;
+}
+.army{
+    height: 205px;
+    border: white solid;
+    margin-bottom: 10px;
+    
+}
+.cardd{
+    border: white solid;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    border-color: #000000;
+}
+
+/*form*/
+#form{
+    background: #5a493f;
+    margin-top: 200px;
+    width: 50%;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paym{
+    margin: 5px;
+    width: 50%;
+}
+
+.rev{
+    margin-top: 200px
+}
+.revs{
+    transition: transform 0.8s;
+    margin-top: 100px;
+}
+.revs:hover{
+    transform: scale(1.15);
+
+}
+
+/*testimonials*/
+.checked {
+    color: orange;
+  }
+
+.flip-card {
+  background-color: transparent;
+  width: 80%;
+  height: auto;
+  perspective: 1000px;
+  margin-left: 6vh;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; 
+  box-shadow: 10px 5px 5px 10px rgb(32, 32, 32);
+
+
+}
+
+.flip-card-front {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  object-fit: cover;
+}
+
+.flip-card-back {
+  background-color:#ffffff;
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+}
+
+
+.whitebox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    background-color: white; 
+    text-align: center;
+}
+
+/*contacts*/
+.contact-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    margin-top: 200px;
+}
+.contact-form {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding: 30px;
+    background-color: white;
+}
+.contact-info {
+    padding: 20px;
+}
+.contact-info i {
+    font-size: 24px;
+    color: #007bff;
+}
+
+
+
+/*footer*/
+#footer{
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 14px;
+    background: #020f1b;
+    font-family: 'Roboto Slab', serif;
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background: #020f1b;
+    color: white;
+}
+#footer .footer-top .footer-contact h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding: 0;
+}
+#footer .footer-top .footer-links ul li a{
+    color: white;
+    line-height: 2;
+}
+#footer .footer-top.social-links a{
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    padding-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s ease   ;
+}
+#footer .copyright{
+    text-align: center;
+    float: left;
+}
+#footer .credits{
+    float: right;
+    text-align: center;
+}
